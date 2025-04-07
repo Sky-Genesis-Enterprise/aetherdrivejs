@@ -1,4 +1,4 @@
-# AetherDrive
+# Aether Drive Node.js Framework
 
 AetherDrive is a Node.js framework for decentralized file storage, retrieval, encryption, and management. This V1 prototype provides a simple yet powerful API for working with files across various storage providers, with built-in encryption capabilities.
 
