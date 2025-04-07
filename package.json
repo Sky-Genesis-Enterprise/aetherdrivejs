@@ -1,0 +1,52 @@
+{
+  "name": "aetherdrive",
+  "version": "0.1.0",
+  "description": "A Node.js framework for decentralized file storage, retrieval, encryption, and management",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/**/*.test.js",
+    "test:coverage": "nyc mocha test/**/*.test.js",
+    "start": "node index.js",
+    "example": "node examples/basic-usage.js",
+    "demo": "node test-aetherdrive.js"
+  },
+  "keywords": [
+    "storage",
+    "encryption",
+    "ipfs",
+    "file-management",
+    "decentralized"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "uuid": "^9.0.0"
+  },
+  "optionalDependencies": {
+    "ipfs-http-client": "^60.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0",
+    "sinon": "^15.2.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/aetherdrive.git"
+  },
+  "bugs": {
+    "url": "https://github.com/username/aetherdrive/issues"
+  },
+  "homepage": "https://github.com/username/aetherdrive#readme"
+}
